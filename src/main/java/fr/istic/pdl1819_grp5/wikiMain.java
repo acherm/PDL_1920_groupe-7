@@ -46,7 +46,8 @@ public class wikiMain {
         Set<UrlMatrix> urlMatrixSet;
 
 
-        File urlsFile = new File("inputdata\\wikiurls.txt");
+        // File urlsFile = new File("inputdata\\wikiurls.txt");
+        File urlsFile = new File("inputdata/wikiurls.txt");
 
 
         if (!urlsFile.exists() && !urlsFile.isDirectory()) {
@@ -73,7 +74,7 @@ public class wikiMain {
 
 
         //stat before extraction
-        FileWriter wikitablestat = new FileWriter("output\\Wkitable_stat.csv");
+        FileWriter wikitablestat = new FileWriter("output/Wkitable_stat.csv");
         logger.log(Level.INFO, "entering of the function which find tables by criteria");
         logger.log(Level.INFO, "Loading..........");
 
