@@ -1,4 +1,4 @@
-# Wikipedia Matrix The Truth
+# Polyglot Wikipedia Matrix Extractor The Truth
 
 Wikipedia Matrix THE TRUTH is a table extractor via two ways : HTML and WIKITEXT.
 the purpose of this project is to improve the first version of the project which has 
